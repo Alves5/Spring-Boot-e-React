@@ -1,0 +1,57 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/front/node_modules
+/front/.pnp
+.pnp.js
+
+# testing
+/front/coverage
+
+# production
+/front/build
+
+# misc
+/front/.DS_Store
+/front/.env.local
+/front/.env.development.local
+/front/.env.test.local
+/front/.env.production.local
+
+/front/npm-debug.log*
+/front/yarn-debug.log*
+/front/yarn-error.log*
+
+/produtos/HELP.md
+/produtos/target/
+/produtos/!.mvn/wrapper/maven-wrapper.jar
+/produtos/!**/src/main/**/target/
+/produtos/!**/src/test/**/target/
+
+### STS ###
+/produtos/.apt_generated
+/produtos/.classpath
+/produtos/.factorypath
+/produtos/.project
+/produtos/.settings
+/produtos/.springBeans
+/produtos/.sts4-cache
+
+### IntelliJ IDEA ###
+/produtos/.idea
+/produtos/*.iws
+/produtos/*.iml
+/produtos/*.ipr
+
+### NetBeans ###
+/produtos/nbproject/private/
+/produtos/nbbuild/
+/produtos/dist/
+/produtos/nbdist/
+/produtos/.nb-gradle/
+/produtos/build/
+/produtos/!**/src/main/**/build/
+/produtos/!**/src/test/**/build/
+
+### VS Code ###
+/produtos/.vscode/
